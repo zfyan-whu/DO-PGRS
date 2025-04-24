@@ -21,7 +21,7 @@ OD-RSPG dataset comprises UAV oblique imagery and satellite imagery captured alo
 ## Evaluation on the OD-PGRS (UAV).
 
 |Dectors| weights|
-|:-------------:| -----:|      
+|:-------------:|-----:|      
 |YOLOv5s | [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
 |YOLOv7 | [yolact_img550_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1mKYRP7LOVgrFN5Vsug-tyI6XDEZ8c62k) |
 |RT-DETR | [yolact_img700_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1y8g-KepFdcSBWKRdHTHB8vygjKsFTyKr) |
@@ -30,7 +30,7 @@ others will come soon...
 
 ## Evaluation on the OD-PGRS (Satellite).
 |Dectors| weights|
-|:-------------:| ------------- |:-------------:| -----:|      
+|:-------------:|-----:|      
 |S2ANet | [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
 |ConvNext  | [yolact_img550_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1mKYRP7LOVgrFN5Vsug-tyI6XDEZ8c62k) |
 |LCKNet | [yolact_img700_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1y8g-KepFdcSBWKRdHTHB8vygjKsFTyKr) |
