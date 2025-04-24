@@ -6,7 +6,7 @@ power grids. This is the official repository of paper [OD-RSPG: Object Detection
 
 ## 🔭 Introduction
 The repository includes:
-* The original images of OD-RSPG dataset with rich annotation in COCO format. [The dataset images here](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1Yz59yXCiPKS0_X4K3x9mW22NLnxjvrr0).
+* The original images of OD-RSPG dataset with rich annotation in COCO format. The dataset images here: https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1Yz59yXCiPKS0_X4K3x9mW22NLnxjvrr0.
 * Weights of training models based on different detectors.
 
 ## 🔭 Introduction
