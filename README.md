@@ -1,8 +1,13 @@
 # OD-RSPG: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark
-This is the official benchmark dataset of the following publication:
 
-> **OD-RSPG: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark**<br/>
-> [Zhengfei Yan], [Chi Chen], [Bisheng Yang]<br/>
+OD-RSPG is a public dataset which is a collection of Unmanned Aerial Vehicle (UAV) and satellte imagery images on
+power grids. This is the official repository of paper [OD-RSPG: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark]
+
+
+## 🔭 Introduction
+The repository includes:
+* The original images of OD-RSPG dataset with rich annotation in COCO format. [The dataset images here](comming soon...).
+* Weights of training models based on different detectors.
 
 ## 🔭 Introduction
 
@@ -36,66 +41,25 @@ fixed frame length LiDAR odometry method and classical “correction-then-regist
 further verify the superiority and effectiveness of the proposed adaptive frame length LiDAR odometry.
 </p>
 
-## 🔗 Related Works
-<strong>Dataset:</strong>
+## Evaluation:
 
-[<u>WHU-Helmet Dataset</u>](https://github.com/kafeiyin00/WHU-HelmetDataset): A helmet-based multi-sensor SLAM dataset for the evaluation of real-time 3D mapping in large-scale GNSS-denied environments
+|Image Size| Backbone|configs| weights|
+|:-------------:| ------------- |:-------------:| -----:|      
+|640 x 360 |Resnet50 | [config_img640_resnet50_aspect.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1ocoYiTDFBcdI8Es8dZlMbsbFGkaLKw98)| [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
+|550 x 550 |Resnet50 | [config_img550_resnet50.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1buxmIli7cxiFwJ7krOCTOojwgDeR2AUM)   | [yolact_img550_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1mKYRP7LOVgrFN5Vsug-tyI6XDEZ8c62k) |
+|700 x 700|Resnet50 | [config_img700_resnet50.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1NCe8W7QKlDhDF-nrH2iLAr0kiHdC6T7w)  | [yolact_img700_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1y8g-KepFdcSBWKRdHTHB8vygjKsFTyKr) |
+|640 x 360 |Resnet101| [config_img640_resnet101_aspect.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1sq3WSdH-wqRLbIaZO9g4uBYA6WQec3uC)| [yolact_img640_secondval_399_45100_resnet101.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1IDfQlBJ2VAIpyaOSUs2Ecmf_rsl8nSdc) |
+|550 x 550 |Resnet101| [config_img550_resnet101.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1XM7ryEokOe98Y6XNmx9qvuK8rPujoJvL)| [yolact_img550_399_45100_resnet101_b8.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1zP4usEnaAUeGuqq179iLocy2J5TO4eJH) |
+|700 x 700 |Resnet101| [config_img700_resnet101.py](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1QfPvi2FTJv1JByqM70qM7nQjGpNI_kNi)| [yolact_img700_399_45100_resnet101_b8.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1IDfQlBJ2VAIpyaOSUs2Ecmf_rsl8nSdc)|
 
-## 💻 Requirements
-The code has been tested on:
-- Ubuntu 18.04
-- ROS melodic
-- GTSAM 4.0.3
-- Ceres 2.1.0
+## Results:
 
-## ✏️ Build & Run
-### 1. How to build this project
+Average Precision for Different Deep Learning Models on TTPLA is reported in the following table
 
-```bash
-cd ~/catkin_ws/src
-git clone https://github.com/DCSI2022/AFLI_Calib.git
-cd AFLI_Calib
-catkin_make
-```
-Need solve the dependency before catkin_make, or use Docker
 
-### Docker (Recommended)
+## Contact:
+For questions about our paper or code, please contact [Zhengfei Yan](zhengfeiyan@whu.edu.cn).
 
-```
-docker build -t $image_name:tag . #build custom name and tag from Dockerfile
-docker run -it -v ~/catkin_ws/src/AFLI_Calib:/home/catkin_ws/src/AFLI_Calib --network host $image_name:tag
-cd /home/catkin_ws # in container
-catkin_make # in container 
-```
-
-### RUN AFLO
-  ```
-  rosrun afli_calib afl_lidarOdometry $rosbag_path $lidar_type $lidar_topic $match_stability_threshold $motion_linearity_threshold $rosbag_start $rosbag_end
-  ```
-  
-lidar_type: 1 LIVOX 2 VELODYNE 3 OUSTER 4 HESAI
-
-### RUN LiDAR-IMU extrinsic calibration
-  ```
-  rosrun afli_calib tight_licalib $rosbag_path $lo_path $lidar_type $lidar_topic $rosbag_start $rosbag_end %still_time
-  ```
-## Todo
-- [ ] Modify parameters using yaml file
-
-## 💡 Citation
-If you find this repo helpful, please give us a star .
-Please consider citing AFLI-Calib if this program benefits your project
-```
-@article{wu2023afli,
-  title={AFLI-Calib: Robust LiDAR-IMU extrinsic self-calibration based on adaptive frame length LiDAR odometry},
-  author={Wu, Weitong and Li, Jianping and Chen, Chi and Yang, Bisheng and Zou, Xianghong and Yang, Yandi and Xu, Yuhang and Zhong, Ruofei and Chen, Ruibo},
-  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-  volume={199},
-  pages={157--181},
-  year={2023},
-  publisher={Elsevier}
-}
-```
 
 ## 🔗 Acknowledgments
 We sincerely thank the excellent projects:
