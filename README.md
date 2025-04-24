@@ -1,10 +1,8 @@
-# AFLI-Calib: Robust LiDAR-IMU extrinsic self-calibration based on adaptive frame length LiDAR odometry
-This is the official implementation (refactor version based on the experiment code) of the following publication:
+# OD-RSPG: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark
+This is the official benchmark dataset of the following publication:
 
-> **AFLI-Calib: Robust LiDAR-IMU extrinsic self-calibration based on adaptive frame length LiDAR odometry**<br/>
-> [Weitong Wu](https://www.researchgate.net/profile/Weitong-Wu?ev=hdr_xprf), [Jianping Li](https://www.researchgate.net/profile/Jianping-Li-27), [Chi Chen](https://3s.whu.edu.cn/info/1025/1364.htm), [Bisheng Yang](https://3s.whu.edu.cn/info/1025/1415.htm), [Xianghong Zou](https://zouxianghong.github.io/), Yandi Yang, [Yuhang Xu](https://www.researchgate.net/profile/Yuhang-Xu-12), [Ruofei Zhong](https://iec.cnu.edu.cn/szdw/sssds/js2/aeeb2b52ad1e489fbb0da68b28822f2a.htm), Ruibo Chen<br/>
-> *ISPRS Journal of Photogrammetry and Remote Sensing,2023,199:157-181*<br/>
-> [**Paper**](https://doi.org/10.1016/j.isprsjprs.2023.04.004)
+> **OD-RSPG: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark**<br/>
+> [Zhengfei Yan], [Chi Chen], [Bisheng Yang]<br/>
 
 ## 🔭 Introduction
 
