@@ -37,6 +37,10 @@ others will come soon...
 
 ## Results:
 Average Precision for Different Deep Learning Models on the OD-PGRS dataset is reported in the following table
+<p align="center">
+  <img src="Figures/Quantitative evaluation on the OD-PGRS (UAV).png" alt="Network" width="80%">
+</p>
+<p align="justify">
 
 ## Contact:
 For questions about our paper or code, please contact zhengfeiyan@whu.edu.cn.
@@ -44,9 +48,5 @@ For questions about our paper or code, please contact zhengfeiyan@whu.edu.cn.
 ## 🔗 Acknowledgments
 We sincerely thank the excellent projects:
 - [ultralytics](https://github.com/ultralytics/ultralytics) 
-- [ikd-Tree](https://github.com/hku-mars/ikd-Tree) for point cloud map management;
-- [GTSAM](https://github.com/borglab/gtsam) for IMU pre-integration and factor graph optimization;
-- [Ceres](https://github.com/ceres-solver/ceres-solver) for auto-diff.
-- [Sopuhs](https://github.com/strasdat/Sophus)
-- [PCL](https://github.com/PointCloudLibrary/pcl)
-- [A-LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM)
+- [Swin-Transformer](https://github.com/microsoft/Swin-Transformer);
+- [mmdetection](https://github.com/microsoft/Swin-Transformer);
