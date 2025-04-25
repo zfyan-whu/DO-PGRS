@@ -24,16 +24,16 @@ OD-RSPG dataset comprises UAV oblique imagery and satellite imagery captured alo
 |:-----:|-----:|      
 |YOLOv7 | [YOLOv7.pth](https://drive.google.com/file/d/104TyTCVwBWVvNhCpb6wuBRtEcZRjPze6/view?usp=drive_link)|
 |YOLOv8 | [YOLOv8.pth](https://drive.google.com/file/d/1Fb7LV-C84TPSbvm87z3EBqGyVSlB0BoN/view?usp=drive_link) |
-|RT-DETR | [RT-DETR.pth](https://drive.google.com/file/d/1cEZPSU9PJkvqpZPSIs7WV7EXDQb75Ibp/view?usp=drive_link) |
+|RT-DETR | [RT-DETR.pth](https://drive.google.com/file/d/1cEZPSU9PJkvqpZPSIs7WV7EXDQb75Ibp/view?usp=drive_link) 
+
 others will come soon...
 
 ## Evaluation on the OD-PGRS (Satellite).
 |Dectors| weights|
 |:-----:|-----:|  
 |Faster R-CNN(Swin-T) | [Faster R-CNN(Swin-T).pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
-|ConvNext  |  |
-|LCKNet | |
-others will come soon...
+
+others will come soon，ConvNext,LCKNet...
 
 ## Results:
 Average Precision for Different Deep Learning Models on the OD-PGRS dataset is reported in the following table
