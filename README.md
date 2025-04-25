@@ -4,7 +4,7 @@ OD-RSPG is a public dataset which is a collection of Unmanned Aerial Vehicle (UA
 power grids. This is the official repository of paper [OD-RSPG: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark]
 
 
-## 🔭 Introduction
+## Download
 The repository includes:
 * The original images of OD-RSPG dataset with rich annotation in COCO format. The dataset images here:https://drive.google.com/drive/folders/1JtFw5H_gaHoUG_18BoJSk7s1KJ46BWYx?usp=drive_link
 * Weights of training models based on different detectors.
@@ -15,7 +15,7 @@ The repository includes:
   <img src="Figures/Overview.png" alt="Network" width="80%">
 </p>
 <p align="justify">
-OD-RSPG dataset comprises UAV oblique imagery and satellite imagery captured along multiple transmission lines, spanning voltage levels from 110 kV to 500 kV. It includes six categories of power components and one category of external object, totaling 2,411 images and 27,082 instances.
+OD-RSPG dataset comprises UAV oblique imagery and satellite imagery captured along multiple transmission lines, spanning voltage levels from 110 kV to 500 kV. We expect this benchmark dataset will support both the research of power component detection methods and their engineering applications, thereby contributing to the advancement of smart grids. 
 </p>
 
 ## Evaluation on the OD-PGRS (UAV).
@@ -30,7 +30,7 @@ others will come soon...
 ## Evaluation on the OD-PGRS (Satellite).
 |Dectors| weights|
 |:-----:|-----:|  
-|Faster R-CNN(Swin-T) | [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
+|Faster R-CNN(Swin-T) | [Faster R-CNN(Swin-T).pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
 |ConvNext  |  |
 |LCKNet | |
 others will come soon...
