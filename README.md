@@ -6,13 +6,13 @@ power grids. This is the official repository of paper [OD-RSPG: Object Detection
 
 ## 🔭 Introduction
 The repository includes:
-* The original images of OD-RSPG dataset with rich annotation in COCO format. The dataset images here: https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1Yz59yXCiPKS0_X4K3x9mW22NLnxjvrr0.
+* The original images of OD-RSPG dataset with rich annotation in COCO format. The dataset images here:https://drive.google.com/drive/folders/1JtFw5H_gaHoUG_18BoJSk7s1KJ46BWYx?usp=drive_link
 * Weights of training models based on different detectors.
 
 ## 🔭 Introduction
 
 <p align="center">
-  <img src="pic/overview.png" alt="Network" width="80%">
+  <img src="Figures/Overview.png" alt="Network" width="80%">
 </p>
 <p align="justify">
 OD-RSPG dataset comprises UAV oblique imagery and satellite imagery captured along multiple transmission lines, spanning voltage levels from 110 kV to 500 kV. It includes six categories of power components and one category of external object, totaling 2,411 images and 27,082 instances.
@@ -21,19 +21,18 @@ OD-RSPG dataset comprises UAV oblique imagery and satellite imagery captured alo
 ## Evaluation on the OD-PGRS (UAV).
 
 |Dectors| weights|
-|:-------------:|-----:|      
-|YOLOv5s | [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
-|YOLOv7 | [yolact_img550_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1mKYRP7LOVgrFN5Vsug-tyI6XDEZ8c62k) |
-|RT-DETR | [yolact_img700_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1y8g-KepFdcSBWKRdHTHB8vygjKsFTyKr) |
-|Dynamic R-CNN | [yolact_img700_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1y8g-KepFdcSBWKRdHTHB8vygjKsFTyKr) |
+|:-----:|-----:|      
+|YOLOv7 | [YOLOv7.pth](https://drive.google.com/file/d/104TyTCVwBWVvNhCpb6wuBRtEcZRjPze6/view?usp=drive_link)|
+|YOLOv8 | [YOLOv8.pth](https://drive.google.com/file/d/1Fb7LV-C84TPSbvm87z3EBqGyVSlB0BoN/view?usp=drive_link) |
+|RT-DETR | [RT-DETR.pth](https://drive.google.com/file/d/1cEZPSU9PJkvqpZPSIs7WV7EXDQb75Ibp/view?usp=drive_link) |
 others will come soon...
 
 ## Evaluation on the OD-PGRS (Satellite).
 |Dectors| weights|
-|:-------------:|-----:|      
-|S2ANet | [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
-|ConvNext  | [yolact_img550_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1mKYRP7LOVgrFN5Vsug-tyI6XDEZ8c62k) |
-|LCKNet | [yolact_img700_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1y8g-KepFdcSBWKRdHTHB8vygjKsFTyKr) |
+|:-----:|-----:|  
+|Faster R-CNN(Swin-T) | [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
+|ConvNext  | [yolact_img550_399_30000_resnet50.pth] |
+|LCKNet | [yolact_img700_399_30000_resnet50.pth] |
 others will come soon...
 
 ## Results:
