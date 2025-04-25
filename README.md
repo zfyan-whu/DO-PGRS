@@ -12,7 +12,7 @@ The repository includes:
 ## 🔭 Introduction
 
 <p align="center">
-  <img src="Figures/Overview.png" alt="Network" width="80%">
+  <img src="Figures/Overview.png" alt="Network" width="100%">
 </p>
 <p align="justify">
 OD-RSPG dataset comprises UAV oblique imagery and satellite imagery captured along multiple transmission lines, spanning voltage levels from 110 kV to 500 kV. We expect this benchmark dataset will support both the research of power component detection methods and their engineering applications, thereby contributing to the advancement of smart grids. 
