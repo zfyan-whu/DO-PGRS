@@ -6,7 +6,7 @@ power grids. This is the official repository of paper [OD-RSPG: Object Detection
 
 ## Download
 The repository includes:
-* The original images of OD-RSPG dataset with rich annotation in COCO format. The dataset images here:https://drive.google.com/drive/folders/1JtFw5H_gaHoUG_18BoJSk7s1KJ46BWYx?usp=drive_link
+* The original images of OD-RSPG dataset with rich annotation in COCO format. The dataset images here: https://drive.google.com/drive/folders/1JtFw5H_gaHoUG_18BoJSk7s1KJ46BWYx?usp=drive_link
 * Weights of training models based on different detectors.
 
 ## 🔭 Introduction
@@ -43,7 +43,7 @@ Average Precision for Different Deep Learning Models on the OD-PGRS dataset is r
 <p align="justify">
   
 <p align="center">
-  <img src="Figures/Visualization.png" alt="Network" width="100%">
+  <img src="Figures/Visualization.png" alt="Network" width="80%">
 </p>
 <p align="justify">
 
