@@ -47,6 +47,6 @@ For questions about our paper or code, please contact zhengfeiyan@whu.edu.cn.
 
 ## 🔗 Acknowledgments
 We sincerely thank the excellent projects:
-- [ultralytics](https://github.com/ultralytics/ultralytics) 
+- [ultralytics](https://github.com/ultralytics/ultralytics);
 - [Swin-Transformer](https://github.com/microsoft/Swin-Transformer);
-- [mmdetection](https://github.com/microsoft/Swin-Transformer);
+- [mmdetection](https://github.com/microsoft/Swin-Transformer).
