@@ -31,7 +31,7 @@ others will come soon...
 ## Evaluation on the OD-PGRS (Satellite).
 |Dectors| weights|
 |:-----:|-----:|  
-|Faster R-CNN(Swin-T) | [Faster R-CNN(Swin-T).pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
+|Faster R-CNN (Swin-T) | [Faster R-CNN(Swin-T).pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
 
 others will come soon，ConvNext,LCKNet...
 
