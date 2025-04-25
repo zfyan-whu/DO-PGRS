@@ -31,8 +31,8 @@ others will come soon...
 |Dectors| weights|
 |:-----:|-----:|  
 |Faster R-CNN(Swin-T) | [yolact_img640_secondval_399_30000_resnet50.pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
-|ConvNext  | [yolact_img550_399_30000_resnet50.pth] |
-|LCKNet | [yolact_img700_399_30000_resnet50.pth] |
+|ConvNext  |  |
+|LCKNet | |
 others will come soon...
 
 ## Results:
