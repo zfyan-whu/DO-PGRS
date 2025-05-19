@@ -38,7 +38,7 @@ others will come soon，ConvNext,LCKNet...
 ## Results:
 Average Precision for Different Deep Learning Models on the DO-PGRS dataset is reported in the following table
 <p align="center">
-  <img src="Figures/Quantitative evaluation on the DO-PGRS (UAV).png" alt="Network" width="100%">
+  <img src="Figures/Quantitative evaluation on the OD-PGRS (UAV).png" alt="Network" width="100%">
 </p>
 <p align="justify">
   
