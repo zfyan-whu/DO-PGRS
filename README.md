@@ -18,7 +18,7 @@ The repository includes:
 DO-PGRS dataset comprises UAV oblique imagery and satellite imagery captured along multiple transmission lines. We expect this benchmark dataset will support both the research of power component detection methods and their engineering applications, thereby contributing to the advancement of smart grids. 
 </p>
 
-## Evaluation on the OD-PGRS (UAV).
+## Evaluation on the DO-PGRS (UAV).
 
 |Dectors| weights|
 |:-----:|-----:|      
@@ -28,7 +28,7 @@ DO-PGRS dataset comprises UAV oblique imagery and satellite imagery captured alo
 
 others will come soon...
 
-## Evaluation on the OD-PGRS (Satellite).
+## Evaluation on the DO-PGRS (Satellite).
 |Dectors| weights|
 |:-----:|-----:|  
 |Faster R-CNN (Swin-T) | [Faster R-CNN(Swin-T).pth](https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1arVhEIz_DQ-1wALSk9S3TJwCFzOWPNik)|
@@ -36,9 +36,9 @@ others will come soon...
 others will come soon，ConvNext,LCKNet...
 
 ## Results:
-Average Precision for Different Deep Learning Models on the OD-PGRS dataset is reported in the following table
+Average Precision for Different Deep Learning Models on the DO-PGRS dataset is reported in the following table
 <p align="center">
-  <img src="Figures/Quantitative evaluation on the OD-PGRS (UAV).png" alt="Network" width="100%">
+  <img src="Figures/Quantitative evaluation on the DO-PGRS (UAV).png" alt="Network" width="100%">
 </p>
 <p align="justify">
   
