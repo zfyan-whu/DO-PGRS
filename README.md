@@ -1,12 +1,12 @@
-# OD-RSPG: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark
+# DO-PGRS: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark
 
-OD-RSPG is a public dataset which is a collection of Unmanned Aerial Vehicle (UAV) and satellte imagery images on
-power grids. This is the official repository of paper [OD-RSPG: Object Detection in Remote Sensing Data for Power Grid Inspection, A Survey and Benchmark]
+DO-PGRS is a public dataset which is a collection of Unmanned Aerial Vehicle (UAV) and satellte imagery images on
+power grids. This is the official repository of paper [DO-PGRS: Detecting Object in Power Grid Inspection using Remote Sensing Data, A Survey and Benchmark]
 
 
 ## Download
 The repository includes:
-* The original images of OD-RSPG dataset with rich annotation in COCO format. The dataset images here: https://drive.google.com/drive/folders/1JtFw5H_gaHoUG_18BoJSk7s1KJ46BWYx?usp=drive_link
+* The original images of DO-PGRS dataset with rich annotation in COCO format. The dataset images here: https://drive.google.com/drive/folders/1JtFw5H_gaHoUG_18BoJSk7s1KJ46BWYx?usp=drive_link
 * Weights of training models based on different detectors.
 
 ## 🔭 Introduction
@@ -15,7 +15,7 @@ The repository includes:
   <img src="Figures/Overview.png" alt="Network" width="100%">
 </p>
 <p align="justify">
-OD-RSPG dataset comprises UAV oblique imagery and satellite imagery captured along multiple transmission lines. We expect this benchmark dataset will support both the research of power component detection methods and their engineering applications, thereby contributing to the advancement of smart grids. 
+DO-PGRS dataset comprises UAV oblique imagery and satellite imagery captured along multiple transmission lines. We expect this benchmark dataset will support both the research of power component detection methods and their engineering applications, thereby contributing to the advancement of smart grids. 
 </p>
 
 ## Evaluation on the OD-PGRS (UAV).
