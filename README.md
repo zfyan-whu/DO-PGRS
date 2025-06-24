@@ -1,7 +1,6 @@
-# DO-PGRS: Detecting Object in Power Grid Inspection using Remote Sensing Data, A Survey and Benchmark
+# Official github repository DO-PGRS
 
-DO-PGRS is a public dataset which is a collection of Unmanned Aerial Vehicle (UAV) and satellte imagery images on
-power grids. This is the official repository of paper [DO-PGRS: Detecting Object in Power Grid Inspection using Remote Sensing Data, A Survey and Benchmark]
+DO-PGRS is a public dataset which is a collection of images on power grids. This is the official repository of the paper and dataset
 
 
 ## Download
