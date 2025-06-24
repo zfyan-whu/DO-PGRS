@@ -14,7 +14,7 @@ The repository includes:
   <img src="Figures/Overview.png" alt="Network" width="100%">
 </p>
 <p align="justify">
-DO-PGRS dataset comprises UAV oblique imagery and satellite imagery captured along multiple transmission lines. We expect this benchmark dataset will support both the research of power component detection methods and their engineering applications, thereby contributing to the advancement of smart grids. 
+DO-PGRS is an open source data platform that includes a large amount of multi-source inspection data.
 </p>
 
 ## Evaluation on the DO-PGRS (UAV).
